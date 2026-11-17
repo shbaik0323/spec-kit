@@ -204,3 +204,7 @@
       href: community/walkthroughs.md
     - name: Friends
       href: community/friends.md
+
+# Korean translation (its own sidebar lives in ko/toc.yml)
+- name: 한국어
+  href: ko/index.md

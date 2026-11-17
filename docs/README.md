@@ -102,6 +102,7 @@ the site homepage. Process command references and authentication remain under
 - `integrations/catalog.md` - Catalog schema and external adapter metadata
 - `integrations/contributing.md` - Integration and catalog contribution guide
 - `reference/agentic-*.md` - Detailed process command references
+- `ko/` - Korean translation mirroring this structure, with its own `ko/toc.yml` sidebar
 - `_site/` - Generated documentation output (ignored by git)
 
 ## Deployment

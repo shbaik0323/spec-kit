@@ -16,7 +16,21 @@
           "workflows/*.md",
           "workflow-steps/*.md",
           "reference/*.md",
-          "install/*.md"
+          "install/*.md",
+          "ko/*.md",
+          "ko/toc.yml",
+          "ko/community/*.md",
+          "ko/bundles/*.md",
+          "ko/extensions/*.md",
+          "ko/guides/*.md",
+          "ko/how-to/*.md",
+          "ko/overview/*.md",
+          "ko/integrations/*.md",
+          "ko/presets/*.md",
+          "ko/workflows/*.md",
+          "ko/workflow-steps/*.md",
+          "ko/reference/*.md",
+          "ko/install/*.md"
         ]
       },
       {
@@ -83,7 +97,8 @@
     },
     "fileMetadata": {
       "_layout": {
-        "index.md": "landing"
+        "index.md": "landing",
+        "ko/index.md": "landing"
       }
     }
   }

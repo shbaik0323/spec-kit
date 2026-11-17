@@ -1,0 +1,212 @@
+# 한국어 문서 목차 (docs/toc.yml의 구조를 그대로 따름)
+
+# 프로젝트 개요와 공통 레퍼런스
+- name: 개요
+  href: index.md
+  items:
+    - name: 소개
+      href: index.md
+    - name: 프로젝트 역사
+      href: overview/history.md
+    - name: 핵심 명령
+      href: overview/core.md
+    - name: MCP 서버
+      href: overview/mcp.md
+    - name: 아티팩트
+      href: overview/artifacts.md
+    - name: 카탈로그
+      href: overview/catalogs.md
+
+# 시작하기
+- name: 시작하기
+  items:
+    - name: 설치
+      href: installation.md
+    - name: Spec Kit의 에이전트 기반 SDLC
+      href: guides/agentic-sdlc.md
+    - name: 스펙 주도 개발
+      href: quickstart.md
+    - name: SDD 명령 레퍼런스
+      href: reference/agentic-sdd.md
+    - name: 버그 수정
+      href: guides/bugfix.md
+    - name: 버그 수정 명령 레퍼런스
+      href: reference/agentic-bugfix.md
+    - name: 아이디어 평가
+      href: guides/assessment.md
+    - name: 아이디어 평가 명령 레퍼런스
+      href: reference/agentic-assessment.md
+    - name: 업그레이드
+      href: upgrade.md
+    - name: uv 설치
+      href: install/uv.md
+    - name: PyPI에서 설치
+      href: install/pypi.md
+    - name: pipx로 설치
+      href: install/pipx.md
+    - name: 일회성 사용 (uvx)
+      href: install/one-time.md
+    - name: 엔터프라이즈 / 에어갭
+      href: install/air-gapped.md
+
+# How-to 가이드
+- name: How to
+  href: how-to/index.md
+  items:
+    - name: 스펙 주도 개발 이해하기
+      href: how-to/sdd.md
+    - name: 기존 프로젝트에 Spec Kit 도입하기
+      href: how-to/existing-projects.md
+    - name: 모노레포에서 작업하기
+      href: how-to/monorepo.md
+    - name: 계약 정의하고 발전시키기
+      href: how-to/contract-driven-development.md
+    - name: 복잡한 기능 구현하기
+      href: how-to/complex-features.md
+    - name: 큰 기능 나누기
+      href: how-to/spec-of-specs.md
+    - name: 명세 보존하기
+      href: how-to/persisting-specs.md
+    - name: 명세 발전시키기
+      href: how-to/evolving-specs.md
+    - name: Spec Kit을 여러분의 프로세스에 맞추기
+      href: how-to/customization.md
+    - name: 인증 설정
+      href: reference/authentication.md
+    - name: Spec Kit 로컬 개발
+      href: how-to/local-development.md
+
+# 에이전트 통합
+- name: 통합
+  href: integrations/index.md
+  items:
+    - name: 개요
+      href: integrations/index.md
+    - name: CLI 레퍼런스
+      href: integrations/cli.md
+    - name: API 레퍼런스
+      href: integrations/api.md
+    - name: 카탈로그와 외부 어댑터
+      href: integrations/catalog.md
+    - name: 통합 기여하기
+      href: integrations/contributing.md
+
+# 확장
+- name: 확장
+  href: extensions/overview.md
+  items:
+    - name: 개요
+      href: extensions/overview.md
+    - name: CLI 레퍼런스
+      href: extensions/cli.md
+    - name: 카탈로그
+      href: extensions/catalogs.md
+    - name: 개발하기
+      href: extensions/developing.md
+    - name: API 레퍼런스
+      href: extensions/api.md
+    - name: 게시하기
+      href: extensions/publishing.md
+
+# 프리셋
+- name: 프리셋
+  href: presets/overview.md
+  items:
+    - name: 개요
+      href: presets/overview.md
+    - name: CLI 레퍼런스
+      href: presets/cli.md
+    - name: 개발하기
+      href: presets/developing.md
+    - name: API 레퍼런스
+      href: presets/api.md
+    - name: 카탈로그
+      href: presets/catalogs.md
+    - name: 게시하기
+      href: presets/publishing.md
+
+# 워크플로
+- name: 워크플로
+  href: workflows/overview.md
+  items:
+    - name: 개요
+      href: workflows/overview.md
+    - name: CLI 레퍼런스
+      href: workflows/cli.md
+    - name: 개발하기
+      href: workflows/developing.md
+    - name: API 레퍼런스
+      href: workflows/api.md
+    - name: 표현식
+      href: workflows/expressions.md
+    - name: 워크플로 함수
+      href: workflows/functions.md
+    - name: 오버레이
+      href: workflows/overlays.md
+    - name: 카탈로그
+      href: workflows/catalogs.md
+    - name: 게시하기
+      href: workflows/publishing.md
+
+# 워크플로 스텝
+- name: 워크플로 스텝
+  href: workflow-steps/overview.md
+  items:
+    - name: 개요
+      href: workflow-steps/overview.md
+    - name: CLI 레퍼런스
+      href: workflow-steps/cli.md
+    - name: 개발하기
+      href: workflow-steps/developing.md
+    - name: API 레퍼런스
+      href: workflow-steps/api.md
+    - name: 내장 스텝 타입
+      href: workflow-steps/types.md
+    - name: 카탈로그
+      href: workflow-steps/catalogs.md
+    - name: 게시하기
+      href: workflow-steps/publishing.md
+
+# 번들
+- name: 번들
+  href: bundles/overview.md
+  items:
+    - name: 개요
+      href: bundles/overview.md
+    - name: CLI 레퍼런스
+      href: bundles/cli.md
+    - name: 개발하기
+      href: bundles/developing.md
+    - name: API 레퍼런스
+      href: bundles/api.md
+    - name: 카탈로그
+      href: bundles/catalogs.md
+    - name: 게시하기
+      href: bundles/publishing.md
+
+# 커뮤니티
+- name: 커뮤니티
+  href: community/overview.md
+  items:
+    - name: 개요
+      href: community/overview.md
+    - name: 통합
+      href: community/integrations.md
+    - name: 확장
+      href: community/extensions.md
+    - name: 프리셋
+      href: community/presets.md
+    - name: 워크플로
+      href: community/workflows.md
+    - name: 워크플로 스텝 타입
+      href: community/workflow-steps.md
+    - name: 번들
+      href: community/bundles.md
+    - name: 워크스루
+      href: community/walkthroughs.md
+    - name: 프렌즈
+      href: community/friends.md
+
+# 영어 문서로 돌아가기
+- name: English
+  href: ../index.md
